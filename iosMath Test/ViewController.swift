@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         self.containerForMathLabel.addSubview(mathLabel)
         
         //labelForIBOutlet
-//        self.labelForIBOutlet.latex = "\\sigma = \\sqrt{\\frac{1}{N}\\sum_{i=1}^N (x_i - \\mu)^2}"
+//    ****crashes**** //    self.labelForIBOutlet.latex = "\\sigma = \\sqrt{\\frac{1}{N}\\sum_{i=1}^N (x_i - \\mu)^2}"
     }
 }
 
