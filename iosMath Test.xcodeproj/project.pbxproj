@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		566783BA4D2B8629729624FD /* Pods_iosMath_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AB7382822DC58427B3C3BB /* Pods_iosMath_Test.framework */; };
 		C1C2B21920C84D4E00C1D89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B21820C84D4E00C1D89B /* AppDelegate.swift */; };
 		C1C2B21B20C84D4E00C1D89B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B21A20C84D4E00C1D89B /* ViewController.swift */; };
 		C1C2B21E20C84D4E00C1D89B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C2B21C20C84D4E00C1D89B /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		C1C2B22320C84D4E00C1D89B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C2B22120C84D4E00C1D89B /* LaunchScreen.storyboard */; };
 		C1C2B22E20C84D4E00C1D89B /* iosMath_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B22D20C84D4E00C1D89B /* iosMath_TestTests.swift */; };
 		C1C2B23920C84D4E00C1D89B /* iosMath_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B23820C84D4E00C1D89B /* iosMath_TestUITests.swift */; };
+		C1C2B24820C851F300C1D89B /* DummyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B24720C851F300C1D89B /* DummyFile.m */; };
+		C1C2B24A20CC115D00C1D89B /* MathLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B24920CC115D00C1D89B /* MathLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300064B9CF9375BB10D8BDA2 /* Pods-iosMath Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosMath Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosMath Test/Pods-iosMath Test.debug.xcconfig"; sourceTree = "<group>"; };
 		C1C2B21520C84D4E00C1D89B /* iosMath Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosMath Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2B21820C84D4E00C1D89B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C2B21A20C84D4E00C1D89B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,11 @@
 		C1C2B23420C84D4E00C1D89B /* iosMath TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iosMath TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2B23820C84D4E00C1D89B /* iosMath_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosMath_TestUITests.swift; sourceTree = "<group>"; };
 		C1C2B23A20C84D4E00C1D89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C2B24620C851F200C1D89B /* iosMath Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosMath Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1C2B24720C851F300C1D89B /* DummyFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DummyFile.m; sourceTree = "<group>"; };
+		C1C2B24920CC115D00C1D89B /* MathLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLabel.swift; sourceTree = "<group>"; };
+		D0AB7382822DC58427B3C3BB /* Pods_iosMath_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosMath_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F622924A582A52E7927FC600 /* Pods-iosMath Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosMath Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosMath Test/Pods-iosMath Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566783BA4D2B8629729624FD /* Pods_iosMath_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A55170F31D29F2F0D96698E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				300064B9CF9375BB10D8BDA2 /* Pods-iosMath Test.debug.xcconfig */,
+				F622924A582A52E7927FC600 /* Pods-iosMath Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C1C2B20C20C84D4E00C1D89B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +100,8 @@
 				C1C2B22C20C84D4E00C1D89B /* iosMath TestTests */,
 				C1C2B23720C84D4E00C1D89B /* iosMath TestUITests */,
 				C1C2B21620C84D4E00C1D89B /* Products */,
+				9A55170F31D29F2F0D96698E /* Pods */,
+				E2ACF0FAD491DA67B5289B7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +120,13 @@
 			children = (
 				C1C2B21820C84D4E00C1D89B /* AppDelegate.swift */,
 				C1C2B21A20C84D4E00C1D89B /* ViewController.swift */,
+				C1C2B24920CC115D00C1D89B /* MathLabel.swift */,
+				C1C2B24720C851F300C1D89B /* DummyFile.m */,
 				C1C2B21C20C84D4E00C1D89B /* Main.storyboard */,
 				C1C2B21F20C84D4E00C1D89B /* Assets.xcassets */,
 				C1C2B22120C84D4E00C1D89B /* LaunchScreen.storyboard */,
 				C1C2B22420C84D4E00C1D89B /* Info.plist */,
+				C1C2B24620C851F200C1D89B /* iosMath Test-Bridging-Header.h */,
 			);
 			path = "iosMath Test";
 			sourceTree = "<group>";
@@ -125,6 +149,14 @@
 			path = "iosMath TestUITests";
 			sourceTree = "<group>";
 		};
+		E2ACF0FAD491DA67B5289B7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0AB7382822DC58427B3C3BB /* Pods_iosMath_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1C2B23D20C84D4E00C1D89B /* Build configuration list for PBXNativeTarget "iosMath Test" */;
 			buildPhases = (
+				295C0D6842F319E6FA9CA46B /* [CP] Check Pods Manifest.lock */,
 				C1C2B21120C84D4E00C1D89B /* Sources */,
 				C1C2B21220C84D4E00C1D89B /* Frameworks */,
 				C1C2B21320C84D4E00C1D89B /* Resources */,
+				00A6A04FB7D04F0EE6070A5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +227,7 @@
 				TargetAttributes = {
 					C1C2B21420C84D4E00C1D89B = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					C1C2B22820C84D4E00C1D89B = {
 						CreatedOnToolsVersion = 9.4;
@@ -251,12 +286,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00A6A04FB7D04F0EE6070A5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iosMath Test/Pods-iosMath Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iosMath/iosMath.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iosMath.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosMath Test/Pods-iosMath Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		295C0D6842F319E6FA9CA46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iosMath Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1C2B21120C84D4E00C1D89B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C2B24A20CC115D00C1D89B /* MathLabel.swift in Sources */,
 				C1C2B21B20C84D4E00C1D89B /* ViewController.swift in Sources */,
+				C1C2B24820C851F300C1D89B /* DummyFile.m in Sources */,
 				C1C2B21920C84D4E00C1D89B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,17 +504,22 @@
 		};
 		C1C2B23E20C84D4E00C1D89B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300064B9CF9375BB10D8BDA2 /* Pods-iosMath Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G572WKSD6J;
 				INFOPLIST_FILE = "iosMath Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.peter.iosMath-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosMath Test/iosMath Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,17 +527,21 @@
 		};
 		C1C2B23F20C84D4E00C1D89B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F622924A582A52E7927FC600 /* Pods-iosMath Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G572WKSD6J;
 				INFOPLIST_FILE = "iosMath Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.peter.iosMath-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosMath Test/iosMath Test-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
