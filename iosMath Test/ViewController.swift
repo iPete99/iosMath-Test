@@ -13,12 +13,15 @@ class ViewController: UIViewController {
     
     @IBOutlet var testLabel: UILabel!
     @IBOutlet var containerForMathLabel: UIView!
+    @IBOutlet var labelForIBOutlet: MTMathUILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // testLabel
         self.testLabel.sizeToFit()
         
+        // containerForMathLabel
         let mathLabel = MTMathUILabel()
         mathLabel.latex = "x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}"
         mathLabel.frame = CGRect(x: self.containerForMathLabel.frame.minX,
@@ -30,6 +33,9 @@ class ViewController: UIViewController {
         print("mathLabel frame: \(mathLabel.frame)")
         
         self.containerForMathLabel.addSubview(mathLabel)
+        
+        //labelForIBOutlet
+//        self.labelForIBOutlet.latex = "\\sigma = \\sqrt{\\frac{1}{N}\\sum_{i=1}^N (x_i - \\mu)^2}"
     }
 }
 

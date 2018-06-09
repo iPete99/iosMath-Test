@@ -28,8 +28,14 @@
                                 <rect key="frame" x="48" y="68" width="279" height="108"/>
                                 <color key="backgroundColor" red="0.92534708976745605" green="0.94938427209854126" blue="0.97510534524917603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2az-wK-jFT" customClass="MathLabel" customModule="iosMath_Test" customModuleProvider="target">
-                                <rect key="frame" x="166" y="387" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label for awake from nib" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2az-wK-jFT" customClass="MathLabel" customModule="iosMath_Test" customModuleProvider="target">
+                                <rect key="frame" x="93.5" y="387" width="187.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label for IBOutlet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqa-0g-bA8">
+                                <rect key="frame" x="120.5" y="445" width="133.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -45,11 +51,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pDv-Bx-DLT" secondAttribute="trailing" constant="48" id="Y0O-4c-FPx"/>
                             <constraint firstItem="2az-wK-jFT" firstAttribute="top" secondItem="ngt-UV-rQd" secondAttribute="bottom" constant="39" id="Zlq-dG-bq4"/>
                             <constraint firstItem="pDv-Bx-DLT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="d4y-nB-N6P"/>
+                            <constraint firstItem="pqa-0g-bA8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d7E-VT-0xC"/>
+                            <constraint firstItem="pqa-0g-bA8" firstAttribute="top" secondItem="2az-wK-jFT" secondAttribute="bottom" constant="37" id="zi8-xg-ONr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="containerForMathLabel" destination="pDv-Bx-DLT" id="8Xa-wM-fMG"/>
+                        <outlet property="labelForIBOutlet" destination="pqa-0g-bA8" id="bjX-ju-nSi"/>
                         <outlet property="testLabel" destination="ngt-UV-rQd" id="Ulg-13-3YH"/>
                     </connections>
                 </viewController>
